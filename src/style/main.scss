@@ -1,3 +1,10 @@
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+$color-blue-one: #0079ff;
+
+@import './searchBar.scss';
+@import './recentPosts.scss';
+
 .post-topic {
     margin: 0 4px;
 }
@@ -17,10 +24,17 @@
 
     display: grid;
     align-content: space-around;
+
+}
+
+.logo-main, .recent-posts {
+    display: grid;
     justify-items: center;
 }
 
-$color-gray-one: #666666;
-$color-gray-two: #b3b3b3;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
-@import './searchBar.scss';
