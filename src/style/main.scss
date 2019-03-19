@@ -1,3 +1,7 @@
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+$color-gray-three: #d8d8d8;
+$color-blue-one: #0079ff;
 
 .post-topic {
     margin: 0 4px;
@@ -23,11 +27,14 @@ ul {
     list-style-type: none;
 }
 
+.no-content {
+    color: $color-gray-one;
+    font-size: 14px;
+    line-height: 17px;
+}
 
-$color-gray-one: #666666;
-$color-gray-two: #b3b3b3;
-$color-gray-three: #d8d8d8;
-$color-blue-one: #0079ff;
+
+
 
 @import './mixins.scss';
 @import './searchBar.scss';
